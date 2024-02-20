@@ -1,79 +1,49 @@
 <!DOCTYPE html> 
 <html>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="./styles.css" rel="stylesheet">
+          
     <head>
-        <title>Isaac Stanek</title>
+        <title>Isaac Stanek's Website</title>
     </head>
 
     <body>
-        <h1>Isaac Stanek</h1>
-
-        <h2>Brief Intro</h2>
-        <p> I am a collge basketball player at Oklahoma Wesleyan University majoring in Computer Science.</p> 
-        <p>One cool fact about me is that I built a website for basketball players or college transfers to email any college coach at any school with one click of a button!</p>
-         
-
-        <h2>Favorite Hobbies</h2>
-        <p> Some of my favorite hobbies are hunting and fishing.</p> 
-        <p>There are many places around where I live that I can go fishing at and usually I go with my little brother and cousin. I like to fish for large mouth bass and smaller fish like crappie or perch to.</p>
-        <img src="http://www.gameandfishmag.com/files/2014/02/GF-Fishing-Cal-Lead-Pic-SC.jpg" alt="Bass Fishing" width="200" height="150"> 
-
-        <h3> Favorite Books</h3>
-        <ol>
-            <li>Lord of the Rings</li>
-            <li>Harry Potter</li>
-            <li>The Bible</li>
-        </ol>
-            
-        <h3> Favorite Movies</h3>
-        <ul>
-            <li> Harry Potter</li>
-            <li> Avatar<a href="https://www.imdb.com/title/tt0499549/?ref_=fn_al_tt_2">(Avatar)</a></li>
-            <li> Toy Story<a href="https://www.imdb.com/title/tt0114709/?ref_=nv_sr_srsg_0_tt_6_nm_2_q_toy">(Toy Story)</a></li>
-            <li> Greater</li>
-            <li> Indiana Jones</li>
-            <li> 
-                <h2>Favorite Cars Movies:</h2>
-                <ol>
-                    <li>Cars<a href="https://www.imdb.com/title/tt0317219/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_cars">(Cars)</a></li>
-                    <li>Cars 2<a href="https://www.imdb.com/title/tt1216475/?ref_=nv_sr_srsg_3_tt_8_nm_0_q_cars">(Cars 2)</a></li>
-                    <li>Cars 3<a href="https://www.imdb.com/title/tt3606752/?ref_=nv_sr_srsg_6_tt_8_nm_0_q_cars">(Cars 3)</a> </li>
-                </ol>
-                <h2>Favorite Websites: </h2>
-                <ol>
-                    <li><a href="https://www.apple.com/" >Apple.com </a></li>
-                    <li><a href="https://promotingnla.com/" >PNLA </a></li>
-                </ol> 
-            </li>
-        </ul>
-
-        <style>
-            table, th, td {
-              border: 1px solid black;
-              border-collapse: collapse;
-            }
-        </style>
-            <table>
-              <tr>
-                <th>Class Name</th>
-                <th>Class Time</th>
-                <th>Class Description</th>
-              </tr>
-              <tr>
-                <td>Web Development</td>
-                <td>Online</td>
-                <td>In this class we learn how to use HTML & CSS!</td>
-              </tr>
-              <tr>
-                <td>Programming for Everyone </td>
-                <td>Online</td>
-                <td>In this class we learn how to use python!</td>
-              </tr>
-              <tr>
-                <td>Calculus 1</td>
-                <td>M/W/F</td>
-                <td>In this class we learn everything that has to do with Calculus!</td>
-              </tr>
-            </table>
+        <div class="container">
+            <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom nav">
+                <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+                    <span class="fs-4">Isaac Stanek</span>
+                </a>
+        
+                <ul class="nav nav-pills">
+                    <li class="nav-item"><a href="index.html" class="nav-link active" style="background-color:#0092ff" aria-current="page">Home</a></li>
+                    <li class="nav-item"><a href="aboutme.html" class="nav-link linktext">About Me</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link linktext">Contact</a></li>
+                    <li class="nav-item"><a href="resume.html" class="nav-link linktext">Resume</a></li>
+                </ul>
+            </header>
+        </div>
+        <h1>Home</h1>
+        <p>&nbsp;</p>
+        <h2>What to expect on this website:</h2>
+        <p>This website is going to show skills that I have learned and developed</p>
+        <p>throughout this journey of learning how to program. I will also have my</p>
+        <p>resume of all those skills and things I've learned on this website.</p>
+        <p>&nbsp;</p>
+        <h2>Expectations:</h2>
+        <div class="container mb-5">
+            <ul class="list-group list-group-flush border-0">
+                <li class="list-group-item border-0 para2">My own personal Resume</li>
+                <li class="list-group-item border-0 para2">The skills I have learned while taking this class and more info about myself!</li>
+                <li class="list-group-item border-0 para2">The website I am currently working on <a href="https://promotingnla.com/" >(PNLA) </a></li>
+            </ul>
+        </div>
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
-
 </html>

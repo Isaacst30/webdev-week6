@@ -5,7 +5,29 @@ body {
     color:black;
 
 } 
+.button{
+    color:#0092ff;
+}
 .button2 {
     background-color: #0092ff;
     color: white;  
+}
+
+.heading{
+    color:#0743f5;
+}
+.nav{
+    background-color: #f2f2f0;
+}
+.background1{
+    background-color: bisque;
+}
+.para1{
+    background-color: beige;
+}
+.para2{
+    background-color: #f2f2f0;
+}
+.field{
+    background-color: #bef7f5;
 }
